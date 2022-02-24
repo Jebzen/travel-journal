@@ -8,7 +8,7 @@ const Card = (props)=>{
     return(
         <div className={Class}>
             <Picture destination={props.destination}/>
-            <div>
+            <div className='text'>
                 <div className='line'>
                     <h3><i className='bi bi-geo-alt-fill'></i>{props.destination}</h3>
                     <p className='link'>

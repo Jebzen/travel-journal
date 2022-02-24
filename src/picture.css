@@ -1,11 +1,12 @@
 .Picture{
     border-radius: 5px;
     background-color: grey;
-    margin-right: 1rem;
+    margin-right: 2rem;
     min-width: 200px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 250px;
 }
 .Picture.Japan{
     background-image: url("./img/japan.jpg");

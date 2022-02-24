@@ -1,11 +1,8 @@
 .card{
     display: flex;
     flex-direction: row;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
     line-height: 1.5em;
-}
-.card:last-child{
-    margin-bottom: 0px;
 }
 .line{
     display: flex;
@@ -17,10 +14,19 @@
 }
 .dates{
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 i.bi-geo-alt-fill{
     font-size: 1rem;
+    color: #F55A5A;
 }
 h1{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.text{
+    margin-top: 1rem;
+}
+.link > a{
+    color: grey;
+    font-weight: lighter;
 }

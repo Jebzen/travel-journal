@@ -13,14 +13,14 @@ function Content(){
         {
             destination: "Australia",
             attraction: "Sydney Opera House",
-            dates: "12 Jan, 2021 - 24 Jan, 2021",
+            dates: "27 May, 2021 - 8 Jun, 2021",
             maps: "###",
             desc: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings"
         },
         {
             destination: "Norway",
             attraction: "Geirangerfjord",
-            dates: "12 Jan, 2021 - 24 Jan, 2021",
+            dates: "01 Oct, 2021 - 18 Nov, 2021",
             maps: "###",
             desc: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality."
         }
