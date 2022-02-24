@@ -12,11 +12,16 @@ function Header() {
             link: 'www.facebook.com'
         }
     ];
-    return(
-        <div className='header'>
+    /* 
+    
             {data.map((item)=>{
                 return <SocialLink icon={item.icon} link={item.link}/>
             })}
+    */
+    return(
+        <div className='header'>
+            <i className="bi bi-globe"></i>
+            <p>my travel journal</p>
         </div>
     )
 }
