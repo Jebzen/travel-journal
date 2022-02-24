@@ -1,5 +1,6 @@
 import './card.css';
 import Picture from './picture';
+import Link from './link';
 
 const Card = (props)=>{
     //console.log(props);
@@ -12,7 +13,7 @@ const Card = (props)=>{
                 <div className='line'>
                     <h3><i className='bi bi-geo-alt-fill'></i>{props.destination}</h3>
                     <p className='link'>
-                        <a href={props.maps} target="_blank" rel="noopener noreferrer">View On Google Maps</a>
+                        <Link maps={props.maps}/>
                     </p>
                 </div>
                 <h1>{props.attraction}</h1>
