@@ -1,7 +1,8 @@
 import './header.css';
-import SocialLink from './components/SocialLink';
+//import SocialLink from './components/SocialLink';
 
 function Header() {
+    /* 
     const data = [
         {
             icon: 'github',
@@ -12,7 +13,6 @@ function Header() {
             link: 'www.facebook.com'
         }
     ];
-    /* 
     
             {data.map((item)=>{
                 return <SocialLink icon={item.icon} link={item.link}/>
