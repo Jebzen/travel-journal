@@ -9,13 +9,13 @@
     height: 250px;
 }
 .Picture.Japan{
-    background-image: url("./img/japan.jpg");
+    background-image: url("../img/japan.jpg");
 }
 .Picture.Norway{
-    background-image: url("./img/norway.jpg");
+    background-image: url("../img/norway.jpg");
 }
 .Picture.Australia{
-    background-image: url("./img/australia.jpg");
+    background-image: url("../img/australia.jpg");
 }
 .link{
     vertical-align: bottom;

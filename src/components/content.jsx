@@ -1,12 +1,11 @@
-import './content.css';
 import Card from './card';
-import data from './data.js';
 
-function Content(){
+function Content(props){
+    let list = props.value;
     return (
-       <div className='content'>
+       <>
             {
-                data.map((item)=> {
+                list.map((item)=> {
                     return <Card 
                         destination={item.destination}
                         attraction={item.attraction}
@@ -17,7 +16,7 @@ function Content(){
                         />
                 })
             }
-        </div> 
+        </> 
     )
 }
 
