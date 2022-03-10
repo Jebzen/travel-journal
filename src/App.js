@@ -6,8 +6,6 @@ import data from './data.js';
 import './content.css';
 
 function App() {
-  //const context = useContext(MyContext);
-
   return (
     <div className="App">
       <Header />
