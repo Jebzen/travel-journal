@@ -5,6 +5,9 @@ import Content from './components/content.jsx';
 import data from './data.js';
 import './content.css';
 
+const { faker } = require('@faker-js/faker');
+const Name = faker.name.findName();
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +15,9 @@ function App() {
       <div className='content'>
         <Content value={data}/>
       </div>
+      <p>
+        {Name}
+      </p>
     </div>
   );
 }
